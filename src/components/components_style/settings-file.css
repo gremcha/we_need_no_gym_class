@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.settings-file {
+  display: flex;
+  width: 80vw;
+  height: 50vh;
+  background-color: rgba(202, 202, 202, 0.5607843137);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #cacaca;
+}
+
+.button-distance {
+  display: flex;
+  height: 60px;
+  width: 15vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #305d82;
+  border: 1px solid #305d82;
+}
+
+.button-distance-active {
+  display: flex;
+  height: 60px;
+  width: 15vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #4682B4;
+  border: 2px solid #305d82;
+}
+
+.text-file {
+  display: flex;
+  height: 50px;
+  width: 140px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.date-input {
+  display: flex;
+  height: 60px;
+  width: 30vh;
+  font-size: 3vh;
+  padding-left: 10px;
+}
+
+.done-button {
+  display: flex;
+  height: 60px;
+  width: 30vh;
+  background-color: #cacaca;
+  font-size: 3vh;
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .choice-distance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    width: 100%;
+    margin: 10px;
+  }
+  .choice-date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    width: 100%;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .settings-file {
+    display: flex;
+    width: 90vw;
+    height: auto;
+    padding: 50px;
+    background-color: rgba(202, 202, 202, 0.5607843137);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+    border-color: #cacaca;
+  }
+  .choice-distanse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    width: 100%;
+  }
+  .button-distance {
+    display: flex;
+    height: 60px;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #305d82;
+    border: 1px solid #305d82;
+    font-size: 3vh;
+  }
+  .button-distance-active {
+    display: flex;
+    height: 60px;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #4682B4;
+    border: 2px solid #305d82;
+    font-size: 3vh;
+  }
+  .date-input {
+    display: flex;
+    height: 60px;
+    width: 60vw;
+    font-size: 3vh;
+  }
+  .text-file {
+    justify-content: flex-start;
+    font-size: 3vh;
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=settings-file.css.map */

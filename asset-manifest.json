@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/we_need_no_gym_class/static/css/main.abd1fba2.css",
+    "main.js": "/we_need_no_gym_class/static/js/main.38070da5.js",
+    "static/js/787.c9362a02.chunk.js": "/we_need_no_gym_class/static/js/787.c9362a02.chunk.js",
+    "static/media/bgpattern.svg": "/we_need_no_gym_class/static/media/bgpattern.2f65cc12ff0e5a54fc5e.svg",
+    "index.html": "/we_need_no_gym_class/index.html",
+    "main.abd1fba2.css.map": "/we_need_no_gym_class/static/css/main.abd1fba2.css.map",
+    "main.38070da5.js.map": "/we_need_no_gym_class/static/js/main.38070da5.js.map",
+    "787.c9362a02.chunk.js.map": "/we_need_no_gym_class/static/js/787.c9362a02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd1fba2.css",
+    "static/js/main.38070da5.js"
+  ]
+}

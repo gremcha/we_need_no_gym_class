@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/weneednogymclass/static/css/main.c92703b3.css",
-    "main.js": "/weneednogymclass/static/js/main.e3a32604.js",
-    "static/js/787.c9362a02.chunk.js": "/weneednogymclass/static/js/787.c9362a02.chunk.js",
-    "static/media/bgpattern.svg": "/weneednogymclass/static/media/bgpattern.2f65cc12ff0e5a54fc5e.svg",
-    "index.html": "/weneednogymclass/index.html",
-    "main.c92703b3.css.map": "/weneednogymclass/static/css/main.c92703b3.css.map",
-    "main.e3a32604.js.map": "/weneednogymclass/static/js/main.e3a32604.js.map",
-    "787.c9362a02.chunk.js.map": "/weneednogymclass/static/js/787.c9362a02.chunk.js.map"
+    "main.css": "/we_need_no_gym_class.com/static/css/main.087f9577.css",
+    "main.js": "/we_need_no_gym_class.com/static/js/main.8a6cd559.js",
+    "static/js/787.c9362a02.chunk.js": "/we_need_no_gym_class.com/static/js/787.c9362a02.chunk.js",
+    "static/media/bgpattern.svg": "/we_need_no_gym_class.com/static/media/bgpattern.2f65cc12ff0e5a54fc5e.svg",
+    "index.html": "/we_need_no_gym_class.com/index.html",
+    "main.087f9577.css.map": "/we_need_no_gym_class.com/static/css/main.087f9577.css.map",
+    "main.8a6cd559.js.map": "/we_need_no_gym_class.com/static/js/main.8a6cd559.js.map",
+    "787.c9362a02.chunk.js.map": "/we_need_no_gym_class.com/static/js/787.c9362a02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c92703b3.css",
-    "static/js/main.e3a32604.js"
+    "static/css/main.087f9577.css",
+    "static/js/main.8a6cd559.js"
   ]
 }

@@ -7,9 +7,9 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: #3f76a3;
+    background-color: #555280;
     background-image: url('../public/bgpattern.svg');
-    flex-direction: column;
+    flex-direction: row;
     background-repeat: repeat-y;
     background-size: 250vh;
     background-position: center;

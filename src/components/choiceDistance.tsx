@@ -16,17 +16,23 @@ export default function ChoiceDistance(props: DistanceProps) {
     const [distance, setDistance] = useState<AvailableDistance>(
         AvailableDistances.five
     )
+    props.onChange(distance)
+
+    const changeDate = (value: AvailableDistance) => {
+        setDistance(value)
+        props.onChange(value)
+    }
 
     return (
         <div className="choice-distance">
             <span className="text-file">Расстояние:</span>
-            <div style={{ display: 'flex', flexDirection: 'row' }}>
+            <div className="distance-toggler">
                 {Object.values(AvailableDistances).map((value) => (
                     <div
                         className={`button-distance${
                             value === distance ? '-active' : ''
                         }`}
-                        onClick={() => setDistance(value)}
+                        onClick={() => changeDate(value)}
                     >
                         {value} км
                     </div>

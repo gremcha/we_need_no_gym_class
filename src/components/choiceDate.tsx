@@ -23,10 +23,11 @@ function getCurrentDate() {
 
 export default function ChoiceDate(props: DateProps) {
     const [date, setDate] = useState(getCurrentDate())
-    console.log(date)
+    props.onChange(date)
 
     const changeDate = (ev: React.ChangeEvent<HTMLInputElement>) => {
         setDate(ev.currentTarget.value)
+        props.onChange(ev.currentTarget.value)
     }
     return (
         <div className="choice-date">

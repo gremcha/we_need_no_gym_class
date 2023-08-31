@@ -1,18 +1,22 @@
 import React, { useState } from 'react'
 
-import ChoiceDistance, { AvailableDistance } from './choiceDistance'
+import ChoiceDistance, {
+    AvailableDistance,
+    AvailableDistances,
+} from './choiceDistance'
 import ChoiceDate from './choiceDate'
 import ChoiceTime from './choiceTime'
 
 import './components_style/settings-file.css'
+import getGpx from './getGpx'
 
 interface DataInterface {
-    distance: AvailableDistance | null
+    distance: AvailableDistance
     date: string
     time: string
 }
 const data: DataInterface = {
-    distance: null,
+    distance: AvailableDistances.five,
     date: '',
     time: '',
 }
@@ -35,8 +39,13 @@ export default function SettingsFile() {
                 <ChoiceDistance onChange={distanceChangeHandler} />
                 <ChoiceDate onChange={dateChangeHandler} />
                 <ChoiceTime onChange={timeChangeHandler} />
+                <div
+                    className="center done-button"
+                    onClick={() => getGpx(data.distance, data.date, data.time)}
+                >
+                    Сформировать
+                </div>
             </div>
-            <div className="center done-button">Сформировать</div>
         </div>
     )
 }

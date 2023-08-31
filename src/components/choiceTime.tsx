@@ -16,9 +16,11 @@ function getCurrentTime() {
 
 export default function ChoiceTime(props: TimeProps) {
     const [time, setTime] = useState(getCurrentTime())
+    props.onChange(time)
 
     const changeTime = (ev: React.ChangeEvent<HTMLInputElement>) => {
         setTime(ev.currentTarget.value)
+        props.onChange(time)
     }
 
     return (

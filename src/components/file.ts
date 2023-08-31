@@ -64,14 +64,14 @@ export const file = `<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
           <geotracker:meta c="5.14" s="0.92" />
         </extensions>
       </trkpt>
-      <trkpt lat="55.7844865" lon="37.4841645">
+      <trkpt lat="55.7845875" lon="37.4841645">
         <ele>72.95</ele>
         <time>2023-05-31T02:16:32Z</time>
         <extensions>
           <geotracker:meta c="6.83" s="1.42" />
         </extensions>
       </trkpt>
-      <trkpt lat="55.7845875" lon="37.4840945">
+      <trkpt lat="55.7845875" lon="37.48413605">
         <ele>134.14000000000001</ele>
         <time>2023-05-31T02:16:39Z</time>
         <extensions>
@@ -274,7 +274,7 @@ export const file = `<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
           <geotracker:meta c="4.64" s="1.07" />
         </extensions>
       </trkpt>
-      <trkpt lat="55.7844029" lon="37.48489">
+      <trkpt lat="55.7844029" lon="37.4841907">
         <ele>187.64</ele>
         <time>2023-05-31T02:19:49Z</time>
         <extensions>
